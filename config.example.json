@@ -1,0 +1,20 @@
+{
+  "llm": {
+    "name": "DeepSeek",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "your-api-key-here",
+    "model": "deepseek-chat",
+    "temperature": 0.3,
+    "max_tokens": 4096
+  },
+  "embedding": {
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "your-api-key-here",
+    "model": "text-embedding-3-small"
+  },
+  "paths": {
+    "projects_dir": "projects",
+    "knowledge_dir": "knowledge",
+    "data_dir": "data"
+  }
+}
